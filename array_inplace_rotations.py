@@ -1,0 +1,10 @@
+x=[1,2,3,4,5]
+l=0
+r=len(x)-1
+while l<r:
+    x[l],x[r]=x[r],x[l]
+    l+=1 
+    r-=1 
+print(x)
+OUTPUT:
+[5,4,3,2,1]
